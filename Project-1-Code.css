@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background-color: #666666;
+    color: #EEEEEE;
+    font-family: cursive;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    background-color: #666666;
+    border: 2px solid black;
+    border-radius: 40px;
+    
+}
+.container:hover{
+    box-shadow: 15px 15px 0 #313131;
+    transition: 0.4s linear;
+}
+
+
+.title{
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+h2{
+    font-size: 34px;
+    color: #313131;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    
+}
+label{
+    margin: 0 0 5px -190px;
+    font-size: 18px;
+}
+
+input[type=text], input[type=password] {
+    width: 280px;
+    height: 50px;
+    font-family: cursive;
+    font-weight: 100;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    background-color: #666666;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #313131;
+   
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #313131;
+    border-radius: 20px;
+    background-color: #666666;
+    color: #EEEEEE;
+    transition: .4s linear;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #23c833;
+    box-shadow: 5px 5px 0 #313131;
+    transition: .4s linear;
+}
+.remember{
+    margin-left: -150px;
+    transition: .3s linear;
+    cursor: pointer; 
+}
+.remember:hover{
+    color: #313131;
+
+}
+input[type=password]:hover{
+    box-shadow: 5px 5px 0 #313131;
+    transition: 0.4s linear;
+}
+input[type=text]:hover{
+    box-shadow: 5px 5px 0 #313131;
+    transition: 0.4s linear;
+
+}
+
+
